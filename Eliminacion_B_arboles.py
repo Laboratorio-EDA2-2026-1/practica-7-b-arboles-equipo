@@ -2,6 +2,7 @@
 #Pueden modificar la extensión del documento para que se ajuste al lenguaje de su elección y comentar estas instrucciones.
 
 class NodoArbolB:
+    
     def __init__(self, t, hoja=False):
         self.t = t
         self.hoja = hoja  
@@ -89,6 +90,7 @@ class NodoArbolB:
 
 
 class ArbolB:
+    
     def __init__(self, t):
         self.t = t
         self.raiz = NodoArbolB(t, True)
